@@ -8,7 +8,14 @@
   # The folder containing the final compiled assets
   publish = "dist"
 
-# Redirect all routing back to index.html (required for React Router/Single Page Apps)
+# Proxy all API requests to the Render backend
+[[redirects]]
+  from = "/api/*"
+  to = "https://rayeva-ai-system.onrender.com/api/:splat"
+  status = 200
+  force = true
+
+# Redirect all other routing back to index.html (required for React Router/Single Page Apps)
 [[redirects]]
   from = "/*"
   to = "/index.html"
