@@ -2,6 +2,10 @@
 
 > **Production-ready AI-powered sustainable commerce platform.**
 
+## 🚀 Live Deployment
+- **Frontend (Netlify):** [https://rayeva-ai-system.netlify.app](https://rayeva-ai-system.netlify.app)
+- **Backend API (Render):** [https://rayeva-ai-system.onrender.com](https://rayeva-ai-system.onrender.com)
+
 ---
 
 ## Overview
