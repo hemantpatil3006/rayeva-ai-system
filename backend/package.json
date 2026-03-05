@@ -1,0 +1,30 @@
+{
+  "name": "rayeva-ai-backend",
+  "version": "1.0.0",
+  "description": "Rayeva Sustainable Commerce AI Platform — Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "rayeva",
+    "sustainable",
+    "ai",
+    "ecommerce"
+  ],
+  "author": "Rayeva Team",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "mongoose": "^9.2.4",
+    "winston": "^3.19.0"
+  }
+}
