@@ -1,0 +1,15 @@
+[build]
+  # Tell Netlify that the React app is inside the frontend folder
+  base = "frontend"
+  
+  # The command Netlify should run to build the app
+  command = "npm run build"
+  
+  # The folder containing the final compiled assets
+  publish = "dist"
+
+# Redirect all routing back to index.html (required for React Router/Single Page Apps)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
